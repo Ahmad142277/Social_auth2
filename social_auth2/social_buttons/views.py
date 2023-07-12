@@ -85,7 +85,7 @@ class GoogleCallbackAPIView(APIView):
 
 FACEBOOK_CLIENT_ID = "407987610634920"
 FACEBOOK_CLIENT_SECRET = "7723f1b576be6935f43c80287a80c22c"
-REDIRECT_URI = "https://127.0.0.1:8000/callback"
+REDIRECT_URI = "https://127.0.0.1:8000/facebook/callback"
 
 authorization_base_url = "https://www.facebook.com/v14.0/dialog/oauth"
 token_url = "https://graph.facebook.com/v14.0/oauth/access_token"
